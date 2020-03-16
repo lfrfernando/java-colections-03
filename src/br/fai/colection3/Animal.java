@@ -1,21 +1,20 @@
 package br.fai.colection3;
 
 public abstract class Animal {
-	
+	//clase que nuca vai ganhar uma isntancia
 	
 	public void som() {
 	System.out.println("Este é som padrão de um animal: zzzz");	
 	}
 	
 	public void dizerMeuNome() {
-		System.out.println("O nome do animal: xxx");
+		System.out.println("O nome do animal:" + getNome());
 		
 	}
 	
 	private void dizerMinhaIdade() {
-		System.out.println("mainha idade é:");
+		System.out.println("Minha idade é: xxx");
 	}
-	
 	
 	public String getCor() {
 		return cor;

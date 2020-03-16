@@ -9,11 +9,11 @@ public abstract class Animal {
 	
 	public void dizerMeuNome() {
 		System.out.println("O nome do animal:" + getNome());
-		
+		dizerMinhaIdade();
 	}
 	
 	private void dizerMinhaIdade() {
-		System.out.println("Minha idade é: xxx");
+		System.out.println("Minha idade é:" +getIdade());
 	}
 	
 	public String getCor() {

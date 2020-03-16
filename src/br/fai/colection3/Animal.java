@@ -4,7 +4,7 @@ public abstract class Animal {
 	//clase que nuca vai ganhar uma isntancia
 	
 	public void som() {
-	System.out.println("Este é som padrão de um animal: zzzz");	
+	System.out.println("Este é som padrão de um animal:");	
 	}
 	
 	public void dizerMeuNome() {

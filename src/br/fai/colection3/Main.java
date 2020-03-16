@@ -48,7 +48,7 @@ public class Main {
 			gato.dizerMeuNome();
 			gato.oQueFacoDuranteANoite();
 			
-			System.out.println("A cor do gato" +gato.getCor());
+			System.out.println("A cor do gato: " +gato.getCor());
 			System.out.println("-------");
 		}
 	}
